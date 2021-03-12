@@ -1,0 +1,13 @@
+.main-menu {
+    background-color: black;
+    position: fixed;
+    width: 300px;
+}
+
+.main-menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+}

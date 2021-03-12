@@ -1,5 +1,6 @@
 import './App.css';
 
+import {Menu} from './components/Header'
 import {Button, Input, Textarea} from './components/Form';
 import Card from './components/Card';
 import paella from './images/paella.jpg'
@@ -7,6 +8,7 @@ import paella from './images/paella.jpg'
 function App() {
     return (
         <>
+            <Menu/>
             <Textarea
                 bgColor="wet asphalt"
                 color="concrete"

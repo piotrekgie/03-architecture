@@ -1,8 +1,8 @@
 import React from 'react';
+
 import {Image} from '../Form'
 import {Avatar} from '../User'
 import {ShowMore} from '../Utils'
-
 import './card.css';
 
 function Card({title, avatarText, date, intro, content, imageUrl, imageTitle, showMore}) {
