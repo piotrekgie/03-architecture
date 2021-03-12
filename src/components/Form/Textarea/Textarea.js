@@ -13,7 +13,7 @@ function Textarea({bgColor = 'black', color = 'white', brdSize, brdRadius, brdCo
     };
 
     return (
-        <textarea style={styles}/>
+        <textarea style={styles} placeholder="Type sth in textarea..."/>
     );
 }
 

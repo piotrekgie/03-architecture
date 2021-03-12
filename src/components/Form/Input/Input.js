@@ -13,7 +13,7 @@ function Input({bgColor = 'black', color = 'white', brdSize = '1', brdRadius = '
     };
 
     return (
-        <input style={styles}/>
+        <input style={styles} placeholder="Type sth in input..."/>
     );
 }
 
