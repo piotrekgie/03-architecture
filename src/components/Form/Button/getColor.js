@@ -1,5 +1,3 @@
-import React from "react";
-
 const colors = {
     alizarin: '#e74c3c',
     amethyst: '#9b59b6',
