@@ -1,0 +1,15 @@
+.employees-table {
+    width: 100%;
+}
+
+.employees-table td,
+.employees-table th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    width: 50%;
+}
+
+.employees-table tr:nth-child(odd) {
+    background-color: #dddddd;
+}

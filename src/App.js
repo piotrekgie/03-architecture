@@ -4,28 +4,12 @@ import {Menu} from './components/Header'
 import {Button, Input, Textarea} from './components/Form';
 import Card from './components/Card';
 import paella from './images/paella.jpg'
+import {Employees} from "./components/Employees";
 
 function App() {
     return (
         <>
             <Menu/>
-            <Textarea
-                bgColor="wet asphalt"
-                color="concrete"
-                brdSize="5"
-                brdRadius="10"
-                brdColor="orange"
-            />
-            <Input
-                bgColor="carrot"
-                color="clouds"
-                brdSize="3"
-                brdRadius="8"
-                brdColor="wisteria"
-            />
-            <Button icon="user">Click me</Button>
-            <Button icon="exclamation" bgColor="pomegranate">Don't click</Button>
-            <Button icon="coffee" bgColor="belize hole" color="greenyellow">Are you sure?</Button>
             <div>
                 <Card
                     title="Shrim and Chorizo Paella"
@@ -38,6 +22,28 @@ function App() {
                     showMore
                 />
             </div>
+            <div>
+                <Textarea
+                    bgColor="wet asphalt"
+                    color="concrete"
+                    brdSize="5"
+                    brdRadius="10"
+                    brdColor="orange"
+                />
+            </div>
+            <div>
+                <Input
+                    bgColor="carrot"
+                    color="clouds"
+                    brdSize="3"
+                    brdRadius="8"
+                    brdColor="wisteria"
+                />
+            </div>
+            <Button icon="user">Click me</Button>
+            <Button icon="exclamation" bgColor="pomegranate">Don't click</Button>
+            <Button icon="coffee" bgColor="belize hole" color="greenyellow">Are you sure?</Button>
+            <Employees/>
         </>
     );
 }
