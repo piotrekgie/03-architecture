@@ -14,7 +14,6 @@ function ShowMore({content}) {
 
     return (
         <>
-            <div id="cardContent">{content}</div>
             {showMore ? <div id="cardContent">{content}</div> : null}
             <div className="show-more" onClick={showMoreClickHandle}>
                 {showMore ? <FontAwesomeIcon icon="angle-up" /> : <FontAwesomeIcon icon="angle-down" />}
