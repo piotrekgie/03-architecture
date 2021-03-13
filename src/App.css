@@ -2,3 +2,9 @@ body {
     padding-top: 20px;
     text-align: center;
 }
+
+.buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 310px;
+}
